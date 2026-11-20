@@ -19,4 +19,3 @@ Version 1.5 keeps the current page when the device rotates, stacks totals on nar
 The main page has Owed to me and I owe tabs, headed Utang nila and Utang ko respectively. Both unpaid and paid records appear in each direction, with dates shown on settled records. The sidebar has Utang, Logs, Settings, and About; About includes an external Facebook contact button provided by the owner. The native design uses navy, teal, and mint with a more distinctive system type hierarchy in both themes.
 
 Imported backups are validated before they replace your records; invalid dates, duplicate record IDs, or payment totals exceeding their record amount are rejected. The app does not send saved debts to the developer.
-

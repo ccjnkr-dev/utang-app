@@ -1,0 +1,16 @@
+# Android Studio and Gradle output
+.gradle/
+**/build/
+.idea/
+*.iml
+local.properties
+
+# Credentials and machine-specific signing state
+*.keystore
+*.jks
+*.idsig
+
+# Generated release archives and APKs (the reviewed APK below is intentional)
+*.zip
+*.apk
+!downloads/Utang-review.apk
