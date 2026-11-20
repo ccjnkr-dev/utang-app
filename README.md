@@ -2,11 +2,17 @@
 
 A native Java Android app. Records and the light/dark preference stay on the phone in Android private app storage. Android automatic backup is disabled; manual JSON export/import is available in Settings. Exported JSON is unencrypted. The app requires no internet permission or account.
 
-## Build and install
+## Download Utang for Android
+
+[**⬇ Download the Utang 1.5 APK**](https://github.com/ccjnkr-dev/utang-app/raw/refs/heads/main/downloads/Utang-review.apk)
+
+Open this link on your Android phone to download the APK directly. Android may ask you to approve installing an app from your browser. This is a development-signed review build, not a Play Store release. Back up your records in Settings before uninstalling or clearing app data.
+
+## Build from source
 
 Open the project in Android Studio with Android SDK 36, Build Tools 36 and JDK 17 or newer. The wrapper uses Gradle 9.4.1 with Android Gradle plugin 9.2.0. Run `./gradlew :app:assembleDebug` (or `gradlew.bat :app:assembleDebug` on Windows). The resulting debug APK is `app/build/outputs/apk/debug/app-debug.apk`.
 
-For an installable review build, see [`downloads/Utang-review.apk`](downloads/Utang-review.apk). This APK is signed with a development key and is not a Play Store release. Version 1.5 uses the same development key as previous review builds, so it can update those installations; a freshly built Android Studio debug APK may use another key and require uninstalling the review build first. Back up your records in Settings before uninstalling or clearing app data.
+The reviewed APK uses the same development key as previous review builds, so it can update those installations. A freshly built Android Studio debug APK may use another key and require uninstalling the review build first.
 
 ## Features
 
